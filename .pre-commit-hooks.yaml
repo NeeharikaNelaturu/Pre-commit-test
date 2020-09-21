@@ -1,1 +1,6 @@
-- id: cpp-check
+-   id: cpp-check
+    name: cpp check
+    description: This hook does cpp formatting.
+    entry: cpp formatter
+    language: c++
+    types: [text]
