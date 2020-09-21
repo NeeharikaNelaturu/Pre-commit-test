@@ -2,5 +2,5 @@
     name: cpp check
     description: This hook does cpp formatting.
     entry: cpp formatter
-    language: c++
+    language: python
     types: [text]
