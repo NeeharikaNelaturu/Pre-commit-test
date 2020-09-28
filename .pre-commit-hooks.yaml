@@ -1,6 +1,6 @@
--   id: cpp-check
-    name: cpp-check
-    description: This hook does cpp formatting.
-    entry: cpp formatter
-    language: script
-    types: [text]
+- id: clang-format
+  name: clang-format
+  entry: clang-format-hook
+  description: Formats C/CPP code
+  files: \.(c|cc|cxx|cpp|h|hpp|hxx|m)$
+  language: python
