@@ -1,0 +1,5 @@
+repos:
+-   repo: https://github.com/NeeharikaNelaturu/Pre-commit-test.git
+    rev: v10
+    hooks:
+    -   id: cpp-check
